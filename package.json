@@ -1,12 +1,13 @@
 {
   "name": "@cameronjyoung/kanbandingo-component-library",
-  "version": "1.2.2",
+  "version": "1.2.5",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/",
   "license": "MIT",
   "files": [
-    "./dist/*"
+    "src",
+    "dist"
   ],
   "scripts": {
     "build": "node build.js",
